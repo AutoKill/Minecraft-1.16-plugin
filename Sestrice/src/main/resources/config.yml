@@ -1,0 +1,6 @@
+time-to-vote: 15
+vote-delay: 10
+disable-command: true
+
+#Discord bot token
+DISCORD_TOKEN: "Nzg5MzY0MjkxNzkwNDM4NDEx.X9w-yA.VCAD2lYgNipVQYdjFrSuXLLtG4E"

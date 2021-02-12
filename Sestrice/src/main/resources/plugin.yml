@@ -1,0 +1,17 @@
+name: SestriceCore
+version: ${project.version}
+main: me.autokill.sestrice.sestricecore.SestriceCore
+api-version: 1.16
+authors: [ AutoKill ]
+description: SestriceCore by AutoKill
+commands:
+  timevote:
+    aliases: [tv]
+    description: Pokreni Time Vote.
+    usage: /timevote ili /timevote <yes/no>
+  gold:
+    description: Double Gold status.
+    usage: /gold ili /gold <on/off>
+  food:
+    description: Food GUI Menu.
+    usage: /food
