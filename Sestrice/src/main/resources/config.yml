@@ -1,6 +1,3 @@
 time-to-vote: 15
 vote-delay: 10
 disable-command: true
-
-#Discord bot token
-DISCORD_TOKEN: "ovde ubacite discord token od vaseg bota"
