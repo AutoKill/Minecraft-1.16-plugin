@@ -23,7 +23,6 @@ public final class SestriceCore extends JavaPlugin {
         super.onEnable();
         this.getConfig().options().copyDefaults(true);
         this.saveConfig();
-        String discordToken = getConfig().getString("DISCORD_TOKEN");
         System.out.println("SestriceCore Enabled!");
         this.getServer().getPluginManager().registerEvents(new VoteEvent(this), this);
         getServer().getPluginManager().registerEvents(new BlockBreak(), this);
